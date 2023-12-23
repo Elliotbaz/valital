@@ -6,7 +6,7 @@ exports.getWord = async (req, res) => {
     const { word } = req.params;
 
     try {
-        const response = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/`);
+        const response = await axios.get(`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`);
         const entries = response.data;
         const verbInfo = findVerbInfo(entries);
 

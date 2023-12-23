@@ -2,7 +2,7 @@ The goal of this set up on this project is sepetation of concern while following
 Below are the commands you'll need to get started: 
 
 
-## SET UP 
+# SET UP 
 
 npm install 
 
